@@ -38,7 +38,7 @@ def alimenti_caricati(connessione):
             SELECT * FROM sezione_freschi;
         """)
 
-    return cursore
+    return cursore.fetchall()
 
 
 if __name__ == "__main__":
