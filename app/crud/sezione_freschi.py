@@ -37,7 +37,6 @@ def alimenti_caricati(connessione):
         cursore = connessione.execute(""" 
             SELECT * FROM sezione_freschi;
         """)
-
     return cursore.fetchall()
 
 
